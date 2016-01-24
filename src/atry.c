@@ -58,7 +58,7 @@ static void main_window_load(Window *window) {
   
 
   // Improve the layout to be more like a watchface
-  text_layer_set_background_color(s_time_layer, GColorBlue);
+  text_layer_set_background_color(s_time_layer, GColorLiberty);
   text_layer_set_text_color(s_time_layer, GColorWhite);
   text_layer_set_text(s_time_layer, "00:00");
   text_layer_set_font(s_time_layer, fonts_get_system_font(FONT_KEY_GOTHIC_24));
